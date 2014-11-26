@@ -10,10 +10,10 @@ int main(){
 
        unsigned long int k, m, q, c1, c2; 
        
-       ofstream out1("58_1.txt");
-       ofstream out2("58_2.txt");
+       ofstream out1("file_1(zadasha52).txt");
+       ofstream out2("file_2(zadasha52).txt");
        
-       cout<<"Input counts number first file ";
+       cout<<"VVedit kilkist elementiv 1-go faily: ";
        cin>>c1;
        
        for(int i=0; i<c1; i++){
@@ -25,7 +25,7 @@ int main(){
        
        out1.close();
        
-       cout<<"Input counts number two file ";
+       cout<<"VVedit kilkist elementiv 2-go faily: ";
        cin>>c2;
 
        for(int i=0; i<c2; i++){
@@ -41,7 +41,7 @@ int main(){
        
        printf("    V fail #1 zapicano:\n");
        
-       ifstream in1("58_1.txt");
+       ifstream in1("file_1(zadasha52).txt");
 
        for(unsigned long int i=0; i<c1; i++){
                  
@@ -55,7 +55,7 @@ int main(){
          
        printf("\n    V fail #2 zapicano:\n");
        
-       ifstream in2("58_2.txt");
+       ifstream in2("file_2(zadasha52).txt");
 
        for(unsigned long int i=0; i<c2; i++){
                  
@@ -99,8 +99,8 @@ int main(){
        printf("\nRezyltat\n");
        printf("File #1 (vidsortovano)\n" );
        
-       ofstream out4("58_1.txt");
-       ofstream out5("58_2.txt");
+       ofstream out4("file_1(zadasha52).txt");
+       ofstream out5("file_2(zadasha52).txt");
        
        for(unsigned long int i=0; i<c1; i++){
                     
@@ -149,7 +149,7 @@ int main(){
        printf("\n");
        printf("Result: File #3\n");
 
-       ofstream out3("58_3.txt");
+       ofstream out3("file_3(zadasha52).txt");
        
        for(int i=0; i<c1+c2; i++){
                
