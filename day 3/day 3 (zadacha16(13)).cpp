@@ -4,7 +4,7 @@
 # include <math.h>
 using namespace std;
 double funktions_13 (double );
-int main ()
+int main (void)
 {
 double a,b,h;
 setlocale(0,"rus");
@@ -36,7 +36,7 @@ return 0;
 }
 double funktions_13 (double x)
 {
-cout<<"13. "<<atan(x)/((x,x)-5*x+6)<<endl;
+cout<<"13. "<<atan(x)/((x*x)-5*x+6)<<endl;
 }
 
 
