@@ -151,9 +151,9 @@ int main(){
 
        ofstream out3("file_3(zadasha52).txt");
        
-       for(int i=0; i<c1+c2; i++){
+       for(int i=0; i<c1+c2-1; i++){
                
-               out3<<rand()%9;
+               out3<<c[i]%9;
                out3<<"\n";
                cout<<c[i]<<" ";
        
